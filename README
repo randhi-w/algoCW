@@ -1,0 +1,27 @@
+AUTHOR : RANDIKA WEERASINGHE
+
+SETUP PROCESS:
+(python v3 and above is not installed please visit https://www.python.org/ to install python)
+
+Pycharm:
+* - If you have the ide pyCharm installed simply open the project using it.
+  - Enable auto import which will usually show up in small dialog box in your bottom right corner and
+    Pycharm will automatically install the libraries used (networkx,matplotlib and tabulate)
+  OR
+  - You can manually install the packages going File -> Settings -> Project -> Project Interpreter ->
+    then click + sign on the side and install manually by seaching the modules "networkx","matplotlib" and "tabulate"
+  OR
+  - If you have pip installed, cd to the project and run the following commands "pip install networkx",
+    "pip install matplot lib" and "pip install tabulate"
+
+IDLE or any other IDE:
+* - If you copy all the python files found in app.py folder to a seperate folder
+  - Download the modules matplotlib,networkx and tabulate and copy to the new folder where you copied the python files
+  OR
+  - If you have pip installed, cd to the project and run the following commands "pip install networkx",
+    "pip install matplot lib" and "pip install tabulate"
+
+NOTES :
+    User input options menu to traverse the functions are not input validate it assumes user will input correct
+    values
+
